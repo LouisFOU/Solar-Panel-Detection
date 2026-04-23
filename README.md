@@ -17,6 +17,13 @@ I am fine-tuning Prithvi Foundation Model to be able to detect every roof solar 
 
 Solar energy is a renewable energy source that can significantly reduce carbon footprints. Detecting solar panels accurately is essential for assessing solar energy potential and monitoring installations especially in Germany. This project takes part in the EO Solar platform dev, see https://eosolar.dlr.de/
 
+## Dataset: PV4GER
+The training data is sourced from the **PV4GER** dataset available on **Zenodo**:
+- **Source:** [Zenodo - PV4GER Dataset](https://zenodo.org/record/4507000)
+- **Content:** 4,027 HDF5 tiles of satellite imagery (Germany).
+- **Processing:** Custom data loader to handle 5D temporal dimensions and 6-band spectral requirements for Prithvi compatibility.
+My goal was to get the same mIoU as Prithvi-300 benchmark on solar panel detection 
+
 
 ## Installation
 To get started with the Solar Panel Detection project, clone the repository and install the necessary dependencies:
