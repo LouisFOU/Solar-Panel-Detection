@@ -2,8 +2,8 @@
 
 ## Overview
 
-The Solar Panel Detection project aims to develop a robust system for identifying and locating solar panels in various environments using advanced computer vision techniques. This project leverages machine learning algorithms to improve detection accuracy and efficiency.
-
+The Solar Panel Detection project is part of my internship at DLR in Munich. Until now we were using old school CNNs to monitor panels but the goal is to use Foundation Models.
+I am fine-tuning Prithvi Foundation Model to be able to detect every roof solar panels in Germany using the DOP20 dataset provided. Here I will publish everything that can be published.
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -15,12 +15,8 @@ The Solar Panel Detection project aims to develop a robust system for identifyin
 
 ## Introduction
 
-Solar energy is a renewable energy source that can significantly reduce carbon footprints. Detecting solar panels accurately is essential for assessing solar energy potential and monitoring installations. This project provides tools to automate this process.
+Solar energy is a renewable energy source that can significantly reduce carbon footprints. Detecting solar panels accurately is essential for assessing solar energy potential and monitoring installations especially in Germany. This project takes part in the EO Solar platform dev, see https://eosolar.dlr.de/
 
-## Features
-- Accurate detection of solar panels in images
-- Real-time processing capabilities
-- User-friendly interface for result visualization
 
 ## Installation
 To get started with the Solar Panel Detection project, clone the repository and install the necessary dependencies:
