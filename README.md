@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Solar Panel Detection project is part of my internship at DLR in Munich. Until now we were using old school CNNs to monitor panels but the goal is to use Foundation Models.
+The Solar Panel Detection project is part of my internship at DLR in Munich. Until now we were using CNNs to monitor panels but the goal is to use Foundation Models.
 I am fine-tuning Prithvi Foundation Model to be able to detect every roof solar panels in Germany using the DOP20 dataset provided. Here I will publish everything that can be published.
 ## Table of Contents
 
